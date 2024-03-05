@@ -15,7 +15,7 @@
 }
 
 body {
-    max-width: 90ch;
+    max-width: 100ch;
     margin: 0 auto;
     line-height: 1.5;
 }
@@ -28,18 +28,21 @@ h1, h2, h3 {
 h1 {
     font-size: 4em;
     font-weight: 900;
-    text-shadow: 0.02em 0.04em #403D58;
+    text-shadow: 0.02em 0.04em #2407ff;
     color: #147c99;
 }
 
 h2 {
+    text-shadow: 0.02em 0.04em #2508ff;
     border-bottom: 0.1em solid #66D7D1;
-    padding: 0.25em;
+    padding: 0.75em;
     margin: 1.6em 0;
 }
 
 section p {
     text-indent: 2.8em;
+    padding: 1em;
+    line-height: 1.6em;
 }
 
 .project {
